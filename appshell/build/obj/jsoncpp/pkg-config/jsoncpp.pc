@@ -1,0 +1,9 @@
+libdir=/home/nxf75284/verisilicon_sw_isp/appshell/build/dist/lib
+includedir=/home/nxf75284/verisilicon_sw_isp/appshell/build/dist/include
+
+Name: jsoncpp
+Description: A C++ library for interacting with JSON
+Version: 1.9.0
+URL: https://github.com/open-source-parsers/jsoncpp
+Libs: -L${libdir} -ljsoncpp
+Cflags: -I${includedir}
